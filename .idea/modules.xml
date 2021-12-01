@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1.PRJYOC_AGORA_JAVA.iml" filepath="$PROJECT_DIR$/1.PRJYOC_AGORA_JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PRUEBAS/PRUEBAS.iml" filepath="$PROJECT_DIR$/PRUEBAS/PRUEBAS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOLUCIONES_EJ_JYOC_JAVA/SOLUCIONES_EJ_JYOC_JAVA.iml" filepath="$PROJECT_DIR$/SOLUCIONES_EJ_JYOC_JAVA/SOLUCIONES_EJ_JYOC_JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOLUCIONES_EJ_JYOC_PROCESOS/SOLUCIONES_EJ_JYOC_PROCESOS.iml" filepath="$PROJECT_DIR$/SOLUCIONES_EJ_JYOC_PROCESOS/SOLUCIONES_EJ_JYOC_PROCESOS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_CLASES_ANONIMAS_INTERNAS/TEMA_CLASES_ANONIMAS_INTERNAS.iml" filepath="$PROJECT_DIR$/TEMA_CLASES_ANONIMAS_INTERNAS/TEMA_CLASES_ANONIMAS_INTERNAS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_COLECCIONES/TEMA_COLECCIONES.iml" filepath="$PROJECT_DIR$/TEMA_COLECCIONES/TEMA_COLECCIONES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_CRYPTO/TEMA_CRYPTO.iml" filepath="$PROJECT_DIR$/TEMA_CRYPTO/TEMA_CRYPTO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_FICHEROS/TEMA_FICHEROS.iml" filepath="$PROJECT_DIR$/TEMA_FICHEROS/TEMA_FICHEROS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_GENERICOS/TEMA_GENERICOS.iml" filepath="$PROJECT_DIR$/TEMA_GENERICOS/TEMA_GENERICOS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_HIBERNATE/TEMA_HIBERNATE.iml" filepath="$PROJECT_DIR$/TEMA_HIBERNATE/TEMA_HIBERNATE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_JAVA8/TEMA_JAVA8.iml" filepath="$PROJECT_DIR$/TEMA_JAVA8/TEMA_JAVA8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_MYSQL/TEMA_MYSQL.iml" filepath="$PROJECT_DIR$/TEMA_MYSQL/TEMA_MYSQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_PATRONES/TEMA_PATRONES.iml" filepath="$PROJECT_DIR$/TEMA_PATRONES/TEMA_PATRONES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_PROPERTIES/TEMA_PROPERTIES.iml" filepath="$PROJECT_DIR$/TEMA_PROPERTIES/TEMA_PROPERTIES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_PSP_AVANZADO/TEMA_PSP_AVANZADO.iml" filepath="$PROJECT_DIR$/TEMA_PSP_AVANZADO/TEMA_PSP_AVANZADO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_PSP_FTP/TEMA_PSP_FTP.iml" filepath="$PROJECT_DIR$/TEMA_PSP_FTP/TEMA_PSP_FTP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_PSP_HILOS/TEMA_PSP_HILOS.iml" filepath="$PROJECT_DIR$/TEMA_PSP_HILOS/TEMA_PSP_HILOS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_PSP_HILOS_PRODUCTORCOMSUMIDOR/TEMA_PSP_HILOS_PRODUCTORCOMSUMIDOR.iml" filepath="$PROJECT_DIR$/TEMA_PSP_HILOS_PRODUCTORCOMSUMIDOR/TEMA_PSP_HILOS_PRODUCTORCOMSUMIDOR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_PSP_HILOS_SEMAFOROS/TEMA_PSP_HILOS_SEMAFOROS.iml" filepath="$PROJECT_DIR$/TEMA_PSP_HILOS_SEMAFOROS/TEMA_PSP_HILOS_SEMAFOROS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_PSP_ISLASFILIPINAS/TEMA_PSP_ISLASFILIPINAS.iml" filepath="$PROJECT_DIR$/TEMA_PSP_ISLASFILIPINAS/TEMA_PSP_ISLASFILIPINAS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_PSP_PROCESOS/TEMA_PSP_PROCESOS.iml" filepath="$PROJECT_DIR$/TEMA_PSP_PROCESOS/TEMA_PSP_PROCESOS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_PSP_SMTP_MAIL/TEMA_PSP_SMTP_MAIL.iml" filepath="$PROJECT_DIR$/TEMA_PSP_SMTP_MAIL/TEMA_PSP_SMTP_MAIL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_PSP_SOCKETS/TEMA_PSP_SOCKETS.iml" filepath="$PROJECT_DIR$/TEMA_PSP_SOCKETS/TEMA_PSP_SOCKETS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_RECURSIVIDAD/TEMA_RECURSIVIDAD.iml" filepath="$PROJECT_DIR$/TEMA_RECURSIVIDAD/TEMA_RECURSIVIDAD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_SWING/TEMA_SWING.iml" filepath="$PROJECT_DIR$/TEMA_SWING/TEMA_SWING.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_SWING_MVC/TEMA_SWING_MVC.iml" filepath="$PROJECT_DIR$/TEMA_SWING_MVC/TEMA_SWING_MVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_TAD_COLAS_PILAS/TEMA_TAD_COLAS_PILAS.iml" filepath="$PROJECT_DIR$/TEMA_TAD_COLAS_PILAS/TEMA_TAD_COLAS_PILAS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_XML/TEMA_XML.iml" filepath="$PROJECT_DIR$/TEMA_XML/TEMA_XML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA__VARIADO/TEMA__VARIADO.iml" filepath="$PROJECT_DIR$/TEMA__VARIADO/TEMA__VARIADO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XPECIAL Crear Json Cacumen/XPECIAL Crear Json Cacumen.iml" filepath="$PROJECT_DIR$/XPECIAL Crear Json Cacumen/XPECIAL Crear Json Cacumen.iml" />
+    </modules>
+  </component>
+</project>

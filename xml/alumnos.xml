@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Alumnos>
+    <alumno edad="20">
+        <nombre nacionalidad="española">Paco</nombre>
+        <apellidos>Gomez</apellidos>
+        <curso>Musica</curso>
+        <sexo>M</sexo>
+    </alumno>
+    <alumno edad="30">
+        <nombre nacionalidad="española">Maria</nombre>
+        <apellidos>Castillo</apellidos>
+        <curso>Pintura</curso>
+        <sexo>F</sexo>
+    </alumno>
+    <alumno edad="25">
+        <nombre nacionalidad="española">Alejandro</nombre>
+        <apellidos>Martin</apellidos>
+        <curso>Bricolaje</curso>
+        <sexo>M</sexo>
+    </alumno>
+    <alumno edad="50">
+        <nombre nacionalidad="española">Lisa</nombre>
+        <apellidos>Simpson</apellidos>
+        <curso>Musica</curso>
+        <sexo>F</sexo>
+    </alumno>
+</Alumnos>

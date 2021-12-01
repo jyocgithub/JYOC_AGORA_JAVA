@@ -1,0 +1,12 @@
+<equipo>
+    <gimnasta id = "33">
+        <nombre>Ana</nombre>
+        <apellido>Arranz</apellido>
+        <nota>8</nota>
+    </gimnasta>
+    <gimnasta id = "17">
+        <nombre>Pepe</nombre>
+        <apellido>Perez</apellido>
+        <nota>5</nota>
+    </gimnasta>
+</equipo>

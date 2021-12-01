@@ -1,0 +1,38 @@
+<html>
+<head>
+	<script>
+        // Función tradicional
+        function leeValor(a) {
+            return document.getElementById(a).innerHTML;
+        }
+	</script>
+</head>
+
+<body>
+<p id="contenido">22</p>
+<button onclick="alert( leeValor( 'contenido') ) ">Leer</button>
+</body>
+
+
+<form>
+	
+	<select name="area" onChange="location = form.area.options[form.area.selectedIndex].value;">
+		
+		<option value="Seleccione una opción"> Seleccione una categoría de baile</option>
+		
+		<option value="index.php?cmd=categorias"> Hip hop</option>
+		
+		<option value="index.php?cmd=categorias"> Flamenco</option>
+		
+		<option value="index.php?cmd=categorias"> Cha cha cha</option>
+		
+		<option value="index.php?cmd=categorias"> Bachata</option>
+		
+		<option value="index.php?cmd=categorias"> Baile de salón</option>
+	
+	</select>
+
+</form>
+
+
+</html>
