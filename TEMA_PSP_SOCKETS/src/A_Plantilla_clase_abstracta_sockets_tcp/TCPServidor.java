@@ -20,7 +20,6 @@ public abstract class TCPServidor {
 		this.serversocket = null;
 		crearServerSocket();
 	}
-	
 
 
 	public void crearServerSocket() {
@@ -28,14 +27,10 @@ public abstract class TCPServidor {
 		try {
 			serversocket = new ServerSocket(puerto);
 			System.out.println("Servidor preparado, esperando algún cliente...");
+
 			Socket manguera = serversocket.accept();
-
-			OutputStream fos = manguera.getOutputStream();
-			 escritor = new DataOutputStream(fos);
-
-			InputStream fis = manguera.getInputStream();
-			lector = new DataInputStream(fis);
-
+			escritor = new DataOutputStream( manguera.getOutputStream());
+			lector = new DataInputStream( manguera.getInputStream());
 			System.out.println("Cliente conectado, comienza comunicación:");
 			
 			comunicacion();
@@ -55,7 +50,5 @@ public abstract class TCPServidor {
 	}
 	
 	public abstract void comunicacion();
-	
-
 	
 }

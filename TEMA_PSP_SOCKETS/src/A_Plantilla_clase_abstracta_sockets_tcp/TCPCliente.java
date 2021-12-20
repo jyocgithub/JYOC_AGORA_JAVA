@@ -27,12 +27,8 @@ public abstract class TCPCliente {
 		
 		try {
 			manguera = new Socket(ip, puerto);
-
-			InputStream fis = manguera.getInputStream();
-			lector = new DataInputStream(fis);
-
-			OutputStream fos = manguera.getOutputStream();
-			escritor = new DataOutputStream(fos);
+			lector = new DataInputStream( manguera.getInputStream());
+			escritor = new DataOutputStream( manguera.getOutputStream());
 			System.out.println("Conectado con servidor, comienza comunicación:");
 	
 			comunicacion();

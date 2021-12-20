@@ -1,4 +1,4 @@
-package inicio;
+package crud_pelis.inicio;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -6,7 +6,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "tablapeliculas")
-public class tablapeliculas {
+public class Tablapeliculas {
 
 	@Column(name = "titulo")
 	String titulo;
@@ -17,11 +17,11 @@ public class tablapeliculas {
 	@Column(name = "actorprincipal")
 	String actorprincipal;
 
-	public tablapeliculas() {
+	public Tablapeliculas() {
 
 	}
 
-	public tablapeliculas(String titulo, String genero, int duracion, String actorprincipal) {
+	public Tablapeliculas(String titulo, String genero, int duracion, String actorprincipal) {
 		super();
 		this.titulo = titulo;
 		this.genero = genero;

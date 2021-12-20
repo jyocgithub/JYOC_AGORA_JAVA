@@ -1,4 +1,6 @@
-package inicio;
+package crud_pelis.inicio;
+
+import crud_pelis.inicio.Tablapeliculas;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -30,7 +32,7 @@ public class Inicio {
 				g = leerString("Indique el genero de la pelicula");
 				d = leerInt("Indique la duracion de la pelicula");
 				a = leerString("Indique el actor principal de la pelicula");
-				tablapeliculas tablapeli = new tablapeliculas(t, g, d, a);
+				Tablapeliculas tablapeli = new Tablapeliculas(t, g, d, a);
 				gdbh.anadirPelicula(tablapeli);
 				break;
 			case 2:
@@ -47,7 +49,7 @@ public class Inicio {
 			case 3:
 				System.out.println("CONSULTA UNA PELICULA");
 				t = leerString("Indique el titulo de la pelicula");
-				tablapeliculas pel = gdbh.consultaPelicula(t);
+				Tablapeliculas pel = gdbh.consultaPelicula(t);
 				if (pel == null) {
 					System.out.println("Titulo inexistente");
 				} else {
@@ -56,17 +58,17 @@ public class Inicio {
 				break;
 			case 4:
 				System.out.println("LISTA DE PELICULAS");
-				ArrayList<tablapeliculas> listapelis = gdbh.listapelis();
-				Iterator<tablapeliculas> iterator = listapelis.iterator();
+				ArrayList<Tablapeliculas> listapelis = gdbh.listapelis();
+				Iterator<Tablapeliculas> iterator = listapelis.iterator();
 				while (iterator.hasNext()) {
-					tablapeliculas pel2 = iterator.next();
+					Tablapeliculas pel2 = iterator.next();
 					unaPeliculaPorConsola(pel2);
 				}
 				break;
 			case 5:
 				System.out.println("MODIFICACION DE PELICULA");
 				t = leerString("Indique el titulo de la pelicula a modificar");
-				tablapeliculas pel5 = gdbh.consultaPelicula(t);
+				Tablapeliculas pel5 = gdbh.consultaPelicula(t);
 				if (pel5 == null) {
 					System.out.println("Titulo inexistente");
 				} else {
@@ -76,7 +78,7 @@ public class Inicio {
 					g = leerString("Indique nuevo el genero de la pelicula");
 					d = leerInt("Indique la nueva duracion de la pelicula");
 					a = leerString("Indique el nuevo actor principal de la pelicula");
-					tablapeliculas ta = new tablapeliculas(t, g, d, a);
+					Tablapeliculas ta = new Tablapeliculas(t, g, d, a);
 					gdbh.actualizaPelicula(ta);
 				}
 				break;
@@ -86,7 +88,7 @@ public class Inicio {
 		System.out.println("Fin del programa");
 	}
 
-	public static void unaPeliculaPorConsola(tablapeliculas pel) {
+	public static void unaPeliculaPorConsola(Tablapeliculas pel) {
 		System.out.println("Titulo: " + pel.getTitulo());
 		System.out.println("   Genero:" + pel.getGenero());
 		System.out.println("    Duracion: " + pel.getDuracion());

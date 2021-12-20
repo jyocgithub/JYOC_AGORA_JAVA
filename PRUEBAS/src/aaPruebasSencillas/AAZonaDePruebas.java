@@ -188,3 +188,16 @@ class EscuchadorBoton1 implements ActionListener {
 		JOptionPane.showMessageDialog(null, "Ha pulsado un boton !", "Cuidado", JOptionPane.INFORMATION_MESSAGE);
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
